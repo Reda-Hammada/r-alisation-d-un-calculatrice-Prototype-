@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 01:46:03 "/>
+        <attribute name="created" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAxOjIzOjQ2ICI7MzA0MQ=="/>
+        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAxOjQ2OjAzICI7MTszMTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, max" type="Integer" array="False" size=""/>
+            <output expression="&quot;Donner le num&#233;ro&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Donner le num&#233;ro&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1 &gt; num2">
+                <then>
+                    <assign variable="max" expression="num1"/>
+                </then>
+                <else>
+                    <assign variable="max" expression="num2"/>
+                </else>
+            </if>
+            <output expression="&quot;le resultat:&quot;&amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
